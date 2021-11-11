@@ -1,0 +1,181 @@
+/* Início das formatações de toda a página */
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+/* Fim das formatações de toda a página */
+
+/* Início da formatação da header */
+
+nav {
+	background: #FFB90F;
+}
+
+#nav-menu li a:link, a:visited {
+	color: white;
+}
+
+#nav-menu li a:hover {
+	color: #FF6347;
+	text-decoration: underline;
+}
+
+/* Fim da formatação da header */
+
+/* Início da formatação da section principal */
+
+body {
+	background: url(../imagens/fundo.jpg);
+	background-attachment: fixed;
+	font-family: helvetica;
+}
+
+.principal h1 {
+	font-size: 4em;
+	color: #FFB90F;
+}
+
+.principal h2 {
+	font-size: 2em;
+	color: #FFB90F;
+}
+
+.principal p {
+	font-size: 1.2em;
+	color: white;
+}
+
+/* Fim da formatação da section principal */
+
+/* Início da formatação da section secundária */
+
+.secundaria {
+	background: white;
+}
+
+.secundaria h4 {
+	color: #FF6347;
+}
+
+.secundaria h2 {
+	color: #FF6347;
+}
+
+.secundaria h3 {
+	color: #FFB90F;
+	font-size: 1.3em;
+}
+
+.secundaria p {
+	font-size: 0.9em;
+}
+
+
+/* Fim da formatação da section secundária */
+
+
+
+/* Início da formatação da página Sobre */
+
+.botao {
+	border-radius: 20px;
+	padding: 12px;
+	width: 180px;
+}
+
+
+.postagem h2{
+	color: #FF6347;
+	font-size: 3em;
+}
+
+.postagem h3{
+	color: #FFB90F;
+	font-size: 2em;
+}
+
+/* Fim da formatação da página Sobre */
+
+
+
+/* Início da formatação da página Contato */
+
+.fundo {
+	background: white;
+	margin-top: 150px;
+	border-radius: 20px;
+}
+
+.fundo h1 {
+	color: #FF6347 ;
+}
+
+.fundo a {
+	color: gold;
+}
+
+/* Fim da formatação da página Contato */
+
+
+
+/* Início da formatação do footer */
+
+h2 {
+	color: #FFB90F;
+	font-size: 2em;
+}
+
+footer p {
+	color: #FFB90F;
+}
+
+.margem {
+	margin-left: 185px;
+}
+
+/* Fim da formatação do footer */
+
+/*Início da formatação do tamanho das telas */
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	.capa h1 {
+		font-size: 3em;
+	}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.capa h1 {
+		font-size: 4em;
+	}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+	.capa h1 {
+		font-size: 5em;
+	}
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) { 
+	.capa h1 {
+		font-size: 6em;
+	}
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+	.capa h1 {
+		font-size: 7em;
+	}
+ }
+
+ 								/* Fim da formatação do tamanho das telas */
